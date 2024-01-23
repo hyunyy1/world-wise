@@ -1,70 +1,24 @@
-# Getting Started with Create React App
+# 🌐 world-wise
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+https://github.com/hyunyy1/world-wise/assets/79568825/9b108eac-b606-4201-b868-29a619d410bc
 
-## Available Scripts
 
-In the project directory, you can run:
+## demo
+🌟 [여기](https://world-wise-hyunseo.netlify.app/) 에서 사용해볼 수 있습니다.
 
-### `npm start`
+## project
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- 지도 api로 `react-leaflet` 사용
+- 지역을 눌러 메모를 추가하면 해당 지역에 핀이 꽂혀 확인 가능 → ( 다녀왔던 지역을 기록 )
+- `react-router-dom` 사용
+- `GeoLocation api`를 이용해 사용자의 현재 위치( 위도, 경도 )를 가져옴
+- searchParams로 위도, 경도를 넘김
+- 현재 위치( 위도, 경도 )를 이용하여 현재 주소를 알아냄 ( https://www.bigdatacloud.com 이용 ) 
+- `css-module`을 이용하여 반응형으로 만듬
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## start
+```
+git clone https://github.com/hyunyy1/world-wise.git
 
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+npm install
+```
